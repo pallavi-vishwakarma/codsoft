@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,600&display=swap');
+
+/* navbar */
+.bg {
+    z-index: -99;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-size: cover;
+}
+
+
+.navbar {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(rgb(201, 16, 16), rgba(235, 120, 139, 0.315));
+    font-weight: 600;
+}
+
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.menu ul {
+    display: flex;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 22px;
+    font-size: 20px;
+}
+
+.menu li {
+    list-style: none;
+    padding-right: 22px;
+    transition: all 0.75s;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    bottom: 2px;
+    color: aliceblue;
+}
+
+.logo {
+    align-items: center;
+}
+
+.title {
+    position: relative;
+    right: 22px;
+    bottom: 22px;
+    font-weight: 600;
+}
+
+/* section */
+
+.wrap {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.content {
+    align-items: right;
+    color: rgba(15, 15, 15, 0.952);
+    margin-left: 220px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.content span {
+    padding: 10px;
+    margin: 10px;
+}
+
+.read {
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(255, 252, 253, 0.781);
+    border-style: none;
+    padding: 10px;
+    border-radius: 30%;
+    background: rgba(255, 0, 0, 0.301);
+    transition: all 0.5s;
+}
+
+.read:hover {
+    transition: all 0.75s;
+    color: white;
+    background: red;
+}
+
+/* second page */
+
+
+.Wrap-1 {
+    padding: auto;
+}
+
+.Wrap-Links {
+    overflow-x: scroll;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    flex: 1 1 0px;
+}
+
+.flovours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(36, 33, 33);
+    font-size: 24px;
+    margin: 20px;
+}
+
+.link img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    border: 0.3em solid white;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.425);
+    font-weight: 600;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.link button {
+    margin-top: 5px;
+    width: 100%;
+    font-family: 'Unbuntu', sans-serif;
+    font-size: 19px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.637);
+    border: none;
+}
+
+.link button:hover {
+    transition: 0.5s;
+    background-color: rgb(233, 58, 73);
+    color: rgb(231, 213, 226);
+}
