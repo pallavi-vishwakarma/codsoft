@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    height: 100%;
+}
+
+.calone input{
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.caltext{
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.cal{
+    padding: 50px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#show{
+    text-align: center;
+}
